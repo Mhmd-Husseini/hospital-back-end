@@ -1,5 +1,5 @@
 <?php
-include('connection.php');
+include('connect.php');
 
 $result = $mysqli->query("SELECT * FROM hospitals");
 $results =[];
