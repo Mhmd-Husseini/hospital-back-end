@@ -3,7 +3,7 @@ include('connect.php');
 
 $result = $mysqli->query("SELECT * FROM users 
 join user_types on user_types.id=users.user_types_id 
-where user_types='patient'");
+where user_types.type='patient'");
 
 $results =[];
 
